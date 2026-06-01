@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Leon — a creative agency delivering design, UI/UX, and web development worldwide."
+    />
+    <meta name="theme-color" content="#10cab7" />
+    <title>Leon | Creative Agency</title>
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main Stylesheet — always last -->
+    <link rel="stylesheet" href="./css/leon.css" />
+  </head>
+
+  <body>
+    <!-- ============================================================
+       Site Header
+       ============================================================ -->
+    <header class="site-header" role="banner">
+      <div class="site-header__container container">
+        <a
+          href="/"
+          class="site-header__logo-link"
+          aria-label="Leon Agency — go to homepage"
+        >
+          <img
+            class="site-header__logo"
+            src="./assets/logo.png"
+            alt="Leon Agency logo"
+            width="60"
+            height="60"
+          />
+        </a>
+
+        <nav class="site-header__nav" aria-label="Primary navigation">
+          <button
+            class="nav__toggle"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+            aria-controls="nav-menu"
+          >
+            <span class="nav__toggle-bar"></span>
+            <span class="nav__toggle-bar"></span>
+            <span class="nav__toggle-bar"></span>
+          </button>
+
+          <ul class="nav__menu" id="nav-menu" role="list">
+            <li class="nav__item">
+              <a class="nav__link" href="#services">Services</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#about">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ============================================================
+       Main Content
+       ============================================================ -->
+    <main id="main-content">
+      <!-- ── Hero ─────────────────────────────────────────────── -->
+      <section class="hero" aria-label="Introduction">
+        <div class="hero__content">
+          <h1 class="hero__title">We Craft Digital Experiences</h1>
+          <p class="hero__subtitle">
+            A creative agency turning bold ideas into beautiful, purposeful
+            design.
+          </p>
+        </div>
+      </section>
+
+      <!-- ── Features ─────────────────────────────────────────── -->
+      <section class="features" aria-label="Our key features">
+        <div class="container">
+          <div class="features__grid">
+            <article class="feature-card">
+              <i
+                class="fa-solid fa-wand-magic-sparkles feature-card__icon"
+                aria-hidden="true"
+              ></i>
+              <h3 class="feature-card__title">Share Your Vision</h3>
+              <p class="feature-card__text">
+                Tell us about your idea, your goals, and your audience — we'll
+                take it from there.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <i
+                class="fa-regular fa-gem feature-card__icon"
+                aria-hidden="true"
+              ></i>
+              <h3 class="feature-card__title">We Handle Everything</h3>
+              <p class="feature-card__text">
+                From strategy and design to development and launch, we own every
+                step of the process.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <i
+                class="fa-solid fa-earth-africa feature-card__icon"
+                aria-hidden="true"
+              ></i>
+              <h3 class="feature-card__title">Built for the World</h3>
+              <p class="feature-card__text">
+                Your product reaches a global audience — polished, accessible,
+                and ready to perform.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Services ─────────────────────────────────────────── -->
+      <section
+        class="services"
+        id="services"
+        aria-labelledby="services-heading"
+      >
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-header__title" id="services-heading">
+              Services
+            </h2>
+            <p class="section-header__subtitle">
+              Don't be busy, be productive.
+            </p>
+          </header>
+
+          <div class="services__grid">
+            <!-- Column 1 -->
+            <div class="services__col">
+              <article class="service-item">
+                <i
+                  class="fa-solid fa-print service-item__icon"
+                  aria-hidden="true"
+                ></i>
+                <div class="service-item__body">
+                  <h3 class="service-item__title">Graphic Design</h3>
+                  <p class="service-item__text">
+                    We create visual identities that communicate your brand's
+                    personality with clarity and impact — from logos to full
+                    brand guidelines.
+                  </p>
+                </div>
+              </article>
+
+              <article class="service-item">
+                <i
+                  class="fa-brands fa-sketch service-item__icon"
+                  aria-hidden="true"
+                ></i>
+                <div class="service-item__body">
+                  <h3 class="service-item__title">UI &amp; UX</h3>
+                  <p class="service-item__text">
+                    We create visual identities that communicate your brand's
+                    personality with clarity and impact — from logos to full
+                    brand guidelines.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="services__col">
+              <article class="service-item">
+                <i
+                  class="fa-solid fa-window-restore service-item__icon"
+                  aria-hidden="true"
+                ></i>
+                <div class="service-item__body">
+                  <h3 class="service-item__title">Web Design</h3>
+                  <p class="service-item__text">
+                    Every pixel is intentional. We craft responsive,
+                    conversion-focused websites that look stunning on every
+                    screen.
+                  </p>
+                </div>
+              </article>
+
+              <article class="service-item">
+                <i
+                  class="fa-solid fa-cubes service-item__icon"
+                  aria-hidden="true"
+                ></i>
+                <div class="service-item__body">
+                  <h3 class="service-item__title">Web Development</h3>
+                  <p class="service-item__text">
+                    Clean code, fast performance, and rock-solid architecture —
+                    built to scale with your business.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <!-- Column 3 — decorative image -->
+            <div class="services__col services__col--image">
+              <figure class="services__figure">
+                <img
+                  class="services__img"
+                  src="./assets/services.jpg"
+                  alt="Team collaborating on a creative project"
+                  width="230"
+                  loading="lazy"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Portfolio ─────────────────────────────────────────── -->
+      <section
+        class="portfolio"
+        id="portfolio"
+        aria-labelledby="portfolio-heading"
+      >
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-header__title" id="portfolio-heading">
+              Portfolio
+            </h2>
+            <p class="section-header__subtitle">
+              If you do it right, it will last forever.
+            </p>
+          </header>
+
+          <div class="portfolio__grid">
+            <article class="project-card">
+              <div class="project-card__media">
+                <img
+                  class="project-card__img"
+                  src="./assets/portfolio-1.jpg"
+                  alt="Project: Brand identity for a lifestyle company"
+                  width="400"
+                  height="250"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">Bloom Brand Identity</h3>
+                <p class="project-card__desc">
+                  A full visual identity system for a modern wellness brand —
+                  logo, color palette, typography, and brand guidelines.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card__media">
+                <img
+                  class="project-card__img"
+                  src="./assets/portfolio-2.jpg"
+                  alt="Project: Mobile app UI design for a tech startup"
+                  width="400"
+                  height="250"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">Pulse Mobile App</h3>
+                <p class="project-card__desc">
+                  UI/UX design for a health-tracking app — user research,
+                  wireframes, and a polished high-fidelity prototype.
+                </p>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-card__media">
+                <img
+                  class="project-card__img"
+                  src="./assets/portfolio-3.webp"
+                  alt="Project: E-commerce website for a fashion brand"
+                  width="400"
+                  height="250"
+                  loading="lazy"
+                />
+              </div>
+              <div class="project-card__body">
+                <h3 class="project-card__title">Maison E-Commerce</h3>
+                <p class="project-card__desc">
+                  A luxury fashion storefront designed for conversion — clean
+                  layout, smooth interactions, and a seamless checkout flow.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── About ─────────────────────────────────────────────── -->
+      <section class="about" id="about" aria-labelledby="about-heading">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-header__title" id="about-heading">About</h2>
+            <p class="section-header__subtitle">
+              We build what others only imagine.
+            </p>
+          </header>
+
+          <div class="about__layout">
+            <figure class="about__figure">
+              <img
+                class="about__img"
+                src="./assets/about.jpg"
+                alt="Leon agency workspace — a creative studio environment"
+                width="250"
+                height="313"
+                loading="lazy"
+              />
+            </figure>
+
+            <div class="about__body">
+              <p class="about__text--lead">
+                Leon is a Cairo-based creative agency founded on one belief:
+                great design solves real problems. We work closely with
+                startups, brands, and entrepreneurs to turn complex challenges
+                into elegant digital products.
+              </p>
+              <hr class="about__divider" />
+              <p class="about__text--muted">
+              Our process is intentional — we research, question, and iterate before we create. The result is work that not only looks exceptional but actually performs: driving engagement, building trust, and growing businesses.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Contact ───────────────────────────────────────────── -->
+      <section class="contact" id="contact" aria-labelledby="contact-heading">
+        <div class="container">
+          <header class="section-header">
+            <h2 class="section-header__title" id="contact-heading">Contact</h2>
+            <p class="section-header__subtitle">We are born to create.</p>
+          </header>
+
+          <div class="contact__content">
+            <div class="contact__email-block">
+              <p class="contact__label">Feel free to drop us a line at:</p>
+              <a
+                class="contact__link"
+                href="mailto:leonagency@mail.com"
+                aria-label="Send us an email at leonagency@mail.com"
+              >
+                leonagency@mail.com
+              </a>
+            </div>
+
+            <div class="contact__social">
+              <p class="social__label">Find us on social networks:</p>
+              <div class="social__links">
+                <a
+                  class="social__link"
+                  href="#"
+                  aria-label="Find us on Dribbble"
+                >
+                  <i class="fa-solid fa-basketball" aria-hidden="true"></i>
+                </a>
+                <a
+                  class="social__link"
+                  href="#"
+                  aria-label="Find us on Google Plus"
+                >
+                  <i class="fa-brands fa-google-plus-g" aria-hidden="true"></i>
+                </a>
+                <a
+                  class="social__link"
+                  href="#"
+                  aria-label="Find us on Twitter"
+                >
+                  <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- /main#main-content -->
+
+    <!-- ============================================================
+       Site Footer
+       ============================================================ -->
+    <footer class="site-footer" role="contentinfo">
+      <p class="site-footer__copy">
+        &copy; 2019 &ndash; <span class="site-footer__brand">Leon</span>, All
+        Rights Reserved.
+      </p>
+    </footer>
+  </body>
+</html>
