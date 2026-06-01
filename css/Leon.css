@@ -367,7 +367,7 @@ button {
    ============================================================ */
 
 .hero {
-  background-image: url(../assets/landing.jpg);
+  background-image: url(../assets/landing.webp);
   background-size: cover;
   background-position: center;
   height: calc(100vh - 4rem); /* viewport minus approx header height */
