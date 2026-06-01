@@ -2,7 +2,7 @@
 
 A clean, fully responsive landing page for a creative agency. Built with semantic HTML5 and modern CSS3 — no frameworks, no JavaScript, no dependencies.
 
-**Live Demo → [leon-agency.vercel.app](https://leon-agency.vercel.app)**
+**Live Demo → [leon-agency.vercel.app]((https://leon-creative-agency-template.vercel.app/))**
 
 ---
 
@@ -45,7 +45,7 @@ It's a practical reference for:
 No build step. No package manager. Just open the file.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/leon-agency.git
+git@github.com:ahmedhassan0101/Leon-Creative-Agency-Template.git
 cd leon-agency
 open index.html
 ```
